@@ -10,7 +10,7 @@
 
 @implementation UIDevice (Addtion)
 
-- (NSString *)deviceModel
++ (NSString *)deviceModel
 {
     //struct utsname systemInfo;
     //uname(&systemInfoma);

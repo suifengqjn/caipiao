@@ -8,6 +8,7 @@
 
 #import "CPTabBarViewController.h"
 #import "CPTabBar.h"
+#import "UIView+XCAdditions.h"
 @interface CPTabBarViewController ()<CPTabBarDelegate>
 
 @end
@@ -16,10 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIView *red = [[UIView alloc] init];
-    red.frame = CGRectMake(100, 5, 5, 5);
-    red.backgroundColor = [UIColor redColor];
-    [self.tabBar addSubview:red];
     
     
     
@@ -38,6 +35,7 @@
 
     
 }
+
 #pragma mark - CPTabBarDelegate
 - (void)tabBar:(CPTabBar *)tabBar didSelectedIndex:(NSInteger)index
 {

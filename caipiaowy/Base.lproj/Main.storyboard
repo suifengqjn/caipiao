@@ -30,7 +30,7 @@
         <!--Item-->
         <scene sceneID="M1X-U6-QpX">
             <objects>
-                <navigationController id="otz-a7-X4Y" sceneMemberID="viewController">
+                <navigationController id="otz-a7-X4Y" customClass="XCNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="5M7-Hs-k5f"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GMf-X5-qOe">
@@ -123,12 +123,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ebf-GV-6L4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="820" y="-191"/>
+            <point key="canvasLocation" x="800" y="-191"/>
         </scene>
         <!--彩购大厅-->
         <scene sceneID="SRl-KU-HyW">
             <objects>
-                <navigationController title="彩购大厅" automaticallyAdjustsScrollViewInsets="NO" id="Lxz-BE-gBl" sceneMemberID="viewController">
+                <navigationController title="彩购大厅" automaticallyAdjustsScrollViewInsets="NO" id="Lxz-BE-gBl" customClass="XCNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="CvF-7d-44N"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8S2-bf-crp">
@@ -147,7 +147,7 @@
         <!--Item-->
         <scene sceneID="GIY-F6-npU">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y1O-Qd-ICq" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y1O-Qd-ICq" customClass="XCNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="aOZ-TT-EK8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BUm-QP-ejQ">
@@ -163,11 +163,11 @@
             </objects>
             <point key="canvasLocation" x="264" y="-819"/>
         </scene>
-        <!--合买跟单-->
+        <!--item-->
         <scene sceneID="BLr-XR-ix9">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VfJ-Kw-qwJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="合买跟单" badgeValue="2" id="97d-2b-ap9"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VfJ-Kw-qwJ" customClass="XCNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="item" id="97d-2b-ap9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sA6-lM-B7U">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -205,7 +205,7 @@
         <!--Item-->
         <scene sceneID="3tX-dd-YcW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EGY-ei-oBv" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EGY-ei-oBv" customClass="XCNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="pB6-o7-nHw"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fsg-FR-H18">
