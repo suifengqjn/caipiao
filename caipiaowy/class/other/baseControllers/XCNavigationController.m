@@ -14,24 +14,39 @@
 
 @implementation XCNavigationController
 
+// 第一次使用这个类或者这个类的子类的时候
++ (void)initialize
+{
+    if (self == [XCNavigationController class]) { // 肯定能保证只调用一次
+        
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIImage *navImage = nil;
+    if (IOS7) {
+        navImage = [UIImage imageNamed:@"NavBar64"];
+    }else{
+        navImage = [UIImage imageNamed:@"NavBar"];
+    }
+    [self.navigationBar setBackgroundImage:navImage forBarMetrics:UIBarMetricsDefault];
+    
+    
+    NSDictionary *dict = @{
+                           NSForegroundColorAttributeName : [UIColor whiteColor],
+                           NSFontAttributeName : [UIFont systemFontOfSize:15.0]
+                           };
+    [self.navigationBar setTitleTextAttributes:dict];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+    viewController.hidesBottomBarWhenPushed = YES;
+    [super pushViewController:viewController animated:YES];
 }
-*/
 
 @end

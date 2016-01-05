@@ -19,19 +19,25 @@
     [super viewDidLoad];
     
     
-    
-    // 移除自带的tabBar
-    [self.tabBar removeFromSuperview];
-    
     NSLog(@"%@",self.tabBar);
     // 创建tabBar
     CPTabBar *tabBar = [[CPTabBar alloc] init];
-    
+    tabBar.itemCount = self.childViewControllers.count;
     tabBar.delegate = self;
     
-    tabBar.frame = self.tabBar.frame;
+    tabBar.frame = self.tabBar.bounds;
     
-    [self.view addSubview:tabBar];
+    [self.tabBar addSubview:tabBar];
+    
+    NSString *imageName = nil;
+    
+    NSString *selImageName = nil;
+    
+    for (NSInteger i = 0; i < self.childViewControllers.count; i++) {
+        imageName = [NSString stringWithFormat:@"TabBar%ld",i + 1];
+        selImageName = [NSString stringWithFormat:@"TabBar%ldSel",i + 1];
+        [tabBar addTabBarButtonWithImageName:imageName selImageName:selImageName];
+    }
 
     
 }

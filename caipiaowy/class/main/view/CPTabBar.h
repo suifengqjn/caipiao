@@ -20,5 +20,9 @@
 @interface CPTabBar : UIView
 
 @property (nonatomic, weak) id<CPTabBarDelegate> delegate;
+@property (nonatomic, assign) NSInteger itemCount;
+
+//给外界创建按钮
+- (void)addTabBarButtonWithImageName:(NSString *)imageName selImageName:(NSString *)selImageName;
 
 @end

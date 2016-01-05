@@ -51,6 +51,7 @@
 		C2AD3C2B1C3BF636007C3925 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C191C3BF636007C3925 /* UIImageView+HighlightedWebCache.m */; };
 		C2AD3C2C1C3BF636007C3925 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C1B1C3BF636007C3925 /* UIImageView+WebCache.m */; };
 		C2AD3C2D1C3BF636007C3925 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C1D1C3BF636007C3925 /* UIView+WebCacheOperation.m */; };
+		C2AD3C301C3C0C51007C3925 /* CPTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C2F1C3C0C51007C3925 /* CPTitleButton.m */; };
 		C2B6A7541C3B7AD200CC2EB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6A7531C3B7AD200CC2EB7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -144,6 +145,8 @@
 		C2AD3C1B1C3BF636007C3925 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		C2AD3C1C1C3BF636007C3925 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		C2AD3C1D1C3BF636007C3925 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		C2AD3C2E1C3C0C51007C3925 /* CPTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTitleButton.h; sourceTree = "<group>"; };
+		C2AD3C2F1C3C0C51007C3925 /* CPTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTitleButton.m; sourceTree = "<group>"; };
 		C2B6A7531C3B7AD200CC2EB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -271,6 +274,8 @@
 		C218F12E1C3A0B7800810733 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				C2AD3C2E1C3C0C51007C3925 /* CPTitleButton.h */,
+				C2AD3C2F1C3C0C51007C3925 /* CPTitleButton.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -664,6 +669,7 @@
 				C2AD3BE01C3BF5DA007C3925 /* XCLabel.m in Sources */,
 				C2AD3C251C3BF636007C3925 /* SDWebImageManager.m in Sources */,
 				C2AD3BF71C3BF627007C3925 /* AFNetworkReachabilityManager.m in Sources */,
+				C2AD3C301C3C0C51007C3925 /* CPTitleButton.m in Sources */,
 				C2AD3BDA1C3BF5DA007C3925 /* XCTabBarController.m in Sources */,
 				C2AD3BDD1C3BF5DA007C3925 /* XCButton.m in Sources */,
 				C2AD3C281C3BF636007C3925 /* UIImage+GIF.m in Sources */,

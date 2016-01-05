@@ -9,8 +9,6 @@
 #import "CPTabBar.h"
 #import "CPTabBarButton.h"
 
-//tabbar 控制器数量
-#define tabBarItemCount 5
 
 @interface CPTabBar ()
 
@@ -24,47 +22,30 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        // Initialization code
-        
-        // 添加按钮
-        [self addBtns];
         
     }
     return self;
 }
 
-
-- (void)addBtns
+- (void)addTabBarButtonWithImageName:(NSString *)imageName selImageName:(NSString *)selImageName
 {
+    CPTabBarButton *btn = [CPTabBarButton buttonWithType:UIButtonTypeCustom];
+
+    // 设置按钮的图片
+    [btn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     
-    NSString *imageName = nil;
+    [btn setBackgroundImage:[UIImage imageNamed:selImageName] forState:UIControlStateSelected];
     
-    NSString *selImageName = nil;
+    // 监听按钮的点击
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
     
-    for (NSInteger i = 0; i < tabBarItemCount; i++) {
-        CPTabBarButton *btn = [CPTabBarButton buttonWithType:UIButtonTypeCustom];
-        // 绑定角标
-        btn.tag = i;
-        
-        imageName = [NSString stringWithFormat:@"TabBar%ld",i + 1];
-        selImageName = [NSString stringWithFormat:@"TabBar%ldSel",i + 1];
-        
-        // 设置按钮的图片
-        [btn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-        
-        [btn setBackgroundImage:[UIImage imageNamed:selImageName] forState:UIControlStateSelected];
-        
-        // 监听按钮的点击
-        [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchDown];
-        
-        [self addSubview:btn];
-        
-        // 默认选中第一个按钮
-        if (i == 0) {
-            [self btnClick:btn];
-        }
-    }
+    [self addSubview:btn];
+    
+    // 默认选中第一个按钮
+    
+
 }
+
 
 // 点击按钮的时候调用
 - (void)btnClick:(UIButton *)button
@@ -94,8 +75,13 @@
     CGFloat btnY = 0;
     
     // 设置按钮的尺寸
-    for (int i = 0; i < tabBarItemCount; i++) {
+    for (int i = 0; i < _itemCount; i++) {
         UIButton *btn = self.subviews[i];
+        btn.tag = i;
+        //默认选中第一个
+        if (i == 0) {
+            [self btnClick:btn];
+        }
         
         btnX = i * btnW;
         
