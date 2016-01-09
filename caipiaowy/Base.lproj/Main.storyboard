@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar View Controller-->
@@ -202,18 +203,60 @@
         <!--我的彩票-->
         <scene sceneID="4CL-JE-13G">
             <objects>
-                <viewController id="0gg-YC-YkZ" sceneMemberID="viewController">
+                <viewController id="0gg-YC-YkZ" customClass="MyProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Isn-sT-3tj"/>
                         <viewControllerLayoutGuide type="bottom" id="Ekk-f1-wEb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="afI-8K-DoR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginScreen" translatesAutoresizingMaskIntoConstraints="NO" id="7lx-rJ-hXg">
+                                <rect key="frame" x="0.0" y="64" width="320" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="reu-yn-nPL"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKL-ga-jry">
+                                <rect key="frame" x="30" y="264" width="260" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="q20-vx-IsA"/>
+                                </constraints>
+                                <state key="normal" title="登入" backgroundImage="RedButton"/>
+                                <connections>
+                                    <action selector="login:" destination="0gg-YC-YkZ" eventType="touchUpInside" id="eac-sG-61e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUY-WG-Aps">
+                                <rect key="frame" x="46" y="324" width="228" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="7lx-rJ-hXg" secondAttribute="trailing" id="1N7-Qv-k37"/>
+                            <constraint firstItem="vKL-ga-jry" firstAttribute="leading" secondItem="afI-8K-DoR" secondAttribute="leading" constant="30" id="70b-hb-erK"/>
+                            <constraint firstItem="7lx-rJ-hXg" firstAttribute="leading" secondItem="afI-8K-DoR" secondAttribute="leading" id="BWS-zT-8Pu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CUY-WG-Aps" secondAttribute="trailing" constant="30" id="Ey4-yj-tJY"/>
+                            <constraint firstItem="CUY-WG-Aps" firstAttribute="leading" secondItem="afI-8K-DoR" secondAttribute="leadingMargin" constant="30" id="GBe-A8-PXg"/>
+                            <constraint firstAttribute="trailing" secondItem="vKL-ga-jry" secondAttribute="trailing" constant="30" id="HIo-wb-ifF"/>
+                            <constraint firstItem="7lx-rJ-hXg" firstAttribute="top" secondItem="Isn-sT-3tj" secondAttribute="bottom" id="Vbk-Zc-SEb"/>
+                            <constraint firstItem="Ekk-f1-wEb" firstAttribute="top" secondItem="7lx-rJ-hXg" secondAttribute="bottom" constant="300" id="YXd-Jh-bob"/>
+                            <constraint firstItem="CUY-WG-Aps" firstAttribute="top" secondItem="vKL-ga-jry" secondAttribute="bottom" constant="30" id="gmS-K3-1ng"/>
+                            <constraint firstItem="vKL-ga-jry" firstAttribute="top" secondItem="7lx-rJ-hXg" secondAttribute="bottom" constant="30" id="kFO-GR-0QE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YXd-Jh-bob"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="我的彩票" id="ksG-T5-k3A"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="loginButton" destination="vKL-ga-jry" id="rBP-00-CVi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIa-fl-y4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -240,6 +283,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LoginScreen" width="150" height="70"/>
+        <image name="RedButton" width="61" height="34"/>
         <image name="YellowDownArrow" width="16" height="16"/>
         <image name="zixunBarFlat" width="13" height="11"/>
     </resources>

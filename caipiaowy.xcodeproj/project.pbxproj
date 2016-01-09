@@ -13,6 +13,9 @@
 		C218F11C1C3A0B2800810733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C218F11B1C3A0B2800810733 /* Assets.xcassets */; };
 		C218F11F1C3A0B2800810733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C218F11D1C3A0B2800810733 /* LaunchScreen.storyboard */; };
 		C218F1451C3A21E700810733 /* CPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C218F1441C3A21E700810733 /* CPTabBarViewController.m */; };
+		C28580221C3FECEF0041B622 /* CPSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580211C3FECEF0041B622 /* CPSettingItem.m */; };
+		C28580251C3FEECE0041B622 /* CPSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580241C3FEECE0041B622 /* CPSettingGroup.m */; };
+		C28580281C3FEF2D0041B622 /* CPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580271C3FEF2D0041B622 /* CPSettingViewController.m */; };
 		C2A7698D1C3ABE4B0096F055 /* CPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7698C1C3ABE4B0096F055 /* CPTabBar.m */; };
 		C2A769901C3AC08D0096F055 /* CPTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2A7698F1C3AC08D0096F055 /* CPTabBarButton.m */; };
 		C2AD3BD81C3BF5DA007C3925 /* XCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3BB41C3BF5DA007C3925 /* XCCollectionViewController.m */; };
@@ -52,7 +55,10 @@
 		C2AD3C2C1C3BF636007C3925 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C1B1C3BF636007C3925 /* UIImageView+WebCache.m */; };
 		C2AD3C2D1C3BF636007C3925 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C1D1C3BF636007C3925 /* UIView+WebCacheOperation.m */; };
 		C2AD3C301C3C0C51007C3925 /* CPTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C2F1C3C0C51007C3925 /* CPTitleButton.m */; };
+		C2AD3C361C3C1357007C3925 /* UIImage+XCAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C351C3C1357007C3925 /* UIImage+XCAdditions.m */; };
+		C2AD3C391C3C13CD007C3925 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2AD3C381C3C13CD007C3925 /* MyProfileViewController.m */; };
 		C2B6A7541C3B7AD200CC2EB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2B6A7531C3B7AD200CC2EB7 /* Images.xcassets */; };
+		C2E94F5F1C40F6FA00F73289 /* XCUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E94F5E1C40F6FA00F73289 /* XCUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +72,12 @@
 		C218F1201C3A0B2800810733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C218F1431C3A21E700810733 /* CPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabBarViewController.h; sourceTree = "<group>"; };
 		C218F1441C3A21E700810733 /* CPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabBarViewController.m; sourceTree = "<group>"; };
+		C28580201C3FECEF0041B622 /* CPSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingItem.h; sourceTree = "<group>"; };
+		C28580211C3FECEF0041B622 /* CPSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingItem.m; sourceTree = "<group>"; };
+		C28580231C3FEECE0041B622 /* CPSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingGroup.h; sourceTree = "<group>"; };
+		C28580241C3FEECE0041B622 /* CPSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingGroup.m; sourceTree = "<group>"; };
+		C28580261C3FEF2D0041B622 /* CPSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingViewController.h; sourceTree = "<group>"; };
+		C28580271C3FEF2D0041B622 /* CPSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingViewController.m; sourceTree = "<group>"; };
 		C2A7698B1C3ABE4B0096F055 /* CPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabBar.h; sourceTree = "<group>"; };
 		C2A7698C1C3ABE4B0096F055 /* CPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabBar.m; sourceTree = "<group>"; };
 		C2A7698E1C3AC08D0096F055 /* CPTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabBarButton.h; sourceTree = "<group>"; };
@@ -147,7 +159,13 @@
 		C2AD3C1D1C3BF636007C3925 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		C2AD3C2E1C3C0C51007C3925 /* CPTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTitleButton.h; sourceTree = "<group>"; };
 		C2AD3C2F1C3C0C51007C3925 /* CPTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTitleButton.m; sourceTree = "<group>"; };
+		C2AD3C341C3C1357007C3925 /* UIImage+XCAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XCAdditions.h"; sourceTree = "<group>"; };
+		C2AD3C351C3C1357007C3925 /* UIImage+XCAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XCAdditions.m"; sourceTree = "<group>"; };
+		C2AD3C371C3C13CD007C3925 /* MyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyProfileViewController.h; sourceTree = "<group>"; };
+		C2AD3C381C3C13CD007C3925 /* MyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyProfileViewController.m; sourceTree = "<group>"; };
 		C2B6A7531C3B7AD200CC2EB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2E94F5D1C40F6FA00F73289 /* XCUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCUtils.h; path = caipiaowy/class/other/Utils/XCUtils.h; sourceTree = SOURCE_ROOT; };
+		C2E94F5E1C40F6FA00F73289 /* XCUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCUtils.m; path = caipiaowy/class/other/Utils/XCUtils.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,13 +223,12 @@
 		C218F1261C3A0B7800810733 /* class */ = {
 			isa = PBXGroup;
 			children = (
-				C218F1271C3A0B7800810733 /* award */,
-				C218F12B1C3A0B7800810733 /* buy */,
-				C218F12F1C3A0B7800810733 /* hall */,
-				C218F1331C3A0B7800810733 /* lucky */,
 				C218F1371C3A0B7800810733 /* main */,
-				C2AD3BB11C3BF5DA007C3925 /* other */,
+				C218F12F1C3A0B7800810733 /* hall */,
+				C218F1271C3A0B7800810733 /* award */,
+				C218F1331C3A0B7800810733 /* lucky */,
 				C218F13B1C3A0B7800810733 /* profile */,
+				C2AD3BB11C3BF5DA007C3925 /* other */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -254,7 +271,8 @@
 				C218F12D1C3A0B7800810733 /* model */,
 				C218F12E1C3A0B7800810733 /* view */,
 			);
-			path = buy;
+			name = buy;
+			path = ../buy;
 			sourceTree = "<group>";
 		};
 		C218F12C1C3A0B7800810733 /* controller */ = {
@@ -283,6 +301,7 @@
 		C218F12F1C3A0B7800810733 /* hall */ = {
 			isa = PBXGroup;
 			children = (
+				C218F12B1C3A0B7800810733 /* buy */,
 				C218F1301C3A0B7800810733 /* controller */,
 				C218F1311C3A0B7800810733 /* model */,
 				C218F1321C3A0B7800810733 /* view */,
@@ -365,6 +384,10 @@
 		C218F13C1C3A0B7800810733 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				C2AD3C371C3C13CD007C3925 /* MyProfileViewController.h */,
+				C2AD3C381C3C13CD007C3925 /* MyProfileViewController.m */,
+				C28580261C3FEF2D0041B622 /* CPSettingViewController.h */,
+				C28580271C3FEF2D0041B622 /* CPSettingViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -372,6 +395,10 @@
 		C218F13D1C3A0B7800810733 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C28580201C3FECEF0041B622 /* CPSettingItem.h */,
+				C28580211C3FECEF0041B622 /* CPSettingItem.m */,
+				C28580231C3FEECE0041B622 /* CPSettingGroup.h */,
+				C28580241C3FEECE0041B622 /* CPSettingGroup.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -467,6 +494,8 @@
 				C2AD3BCC1C3BF5DA007C3925 /* UIDevice+Addtion.m */,
 				C2AD3BCD1C3BF5DA007C3925 /* UIView+XCAdditions.h */,
 				C2AD3BCE1C3BF5DA007C3925 /* UIView+XCAdditions.m */,
+				C2AD3C341C3C1357007C3925 /* UIImage+XCAdditions.h */,
+				C2AD3C351C3C1357007C3925 /* UIImage+XCAdditions.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -489,6 +518,8 @@
 		C2AD3BD31C3BF5DA007C3925 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C2E94F5D1C40F6FA00F73289 /* XCUtils.h */,
+				C2E94F5E1C40F6FA00F73289 /* XCUtils.m */,
 				C2AD3BD41C3BF5DA007C3925 /* iToast */,
 			);
 			path = Utils;
@@ -662,6 +693,7 @@
 				C2AD3C271C3BF636007C3925 /* UIButton+WebCache.m in Sources */,
 				C2AD3C261C3BF636007C3925 /* SDWebImagePrefetcher.m in Sources */,
 				C2AD3BE61C3BF5DA007C3925 /* iToast.m in Sources */,
+				C28580281C3FEF2D0041B622 /* CPSettingViewController.m in Sources */,
 				C2AD3BDC1C3BF5DA007C3925 /* XCViewController.m in Sources */,
 				C2AD3BF61C3BF627007C3925 /* AFHTTPSessionManager.m in Sources */,
 				C2AD3C2B1C3BF636007C3925 /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -678,12 +710,16 @@
 				C218F1141C3A0B2800810733 /* AppDelegate.m in Sources */,
 				C2AD3C291C3BF636007C3925 /* UIImage+MultiFormat.m in Sources */,
 				C2AD3C241C3BF636007C3925 /* SDWebImageDownloaderOperation.m in Sources */,
+				C28580221C3FECEF0041B622 /* CPSettingItem.m in Sources */,
 				C2AD3BE11C3BF5DA007C3925 /* XCTableViewCell.m in Sources */,
 				C2A769901C3AC08D0096F055 /* CPTabBarButton.m in Sources */,
+				C2E94F5F1C40F6FA00F73289 /* XCUtils.m in Sources */,
 				C2AD3BE41C3BF5DA007C3925 /* UIView+XCAdditions.m in Sources */,
 				C218F1111C3A0B2800810733 /* main.m in Sources */,
 				C2AD3C221C3BF636007C3925 /* SDWebImageDecoder.m in Sources */,
 				C2AD3C2A1C3BF636007C3925 /* UIImage+WebP.m in Sources */,
+				C28580251C3FEECE0041B622 /* CPSettingGroup.m in Sources */,
+				C2AD3C361C3C1357007C3925 /* UIImage+XCAdditions.m in Sources */,
 				C2AD3C211C3BF636007C3925 /* SDWebImageCompat.m in Sources */,
 				C2AD3BF91C3BF627007C3925 /* AFURLRequestSerialization.m in Sources */,
 				C2AD3BF81C3BF627007C3925 /* AFSecurityPolicy.m in Sources */,
@@ -691,6 +727,7 @@
 				C2AD3C1E1C3BF636007C3925 /* MKAnnotationView+WebCache.m in Sources */,
 				C2AD3BFA1C3BF627007C3925 /* AFURLResponseSerialization.m in Sources */,
 				C2AD3BD81C3BF5DA007C3925 /* XCCollectionViewController.m in Sources */,
+				C2AD3C391C3C13CD007C3925 /* MyProfileViewController.m in Sources */,
 				C2AD3C201C3BF636007C3925 /* SDImageCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
