@@ -1,0 +1,31 @@
+;(function() {
+    var jsbridge = window.CPJsBridge;
+
+    window.CPJsApi = {
+        common : {
+            isappinstalled : function(params, callback){
+                jsbridge.invoke('isappinstalled', params, callback);
+            },
+            openurl : function(params, callback){
+                jsbridge.invoke('openurl', params, callback);
+            }
+        },
+        account : {
+            login : function(params, callback){
+                jsbridge.invoke('login', params, callback);
+            },
+            onCookieFinished : function(params, callback){
+                jsbridge.invoke('onCookieFinished', params, callback);
+            },
+            recharge: function(params, callback){
+                jsbridge.invoke('recharge', params, callback);
+            }
+        },
+        Identity : {
+            Verify : function(params, callback){
+                jsbridge.invoke('Verify', params, callback);
+            }
+        }
+    };
+})();
+

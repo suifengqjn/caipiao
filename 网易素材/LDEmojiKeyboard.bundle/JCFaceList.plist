@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[欢呼]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face001_cheer</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[失落]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face002_disappointed</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[恼火]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face003_annoyed</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[惊吓]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face004_frightened</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[发呆]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face005_stunned</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[得意]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face006_complacent</string>
+	</dict>
+	<dict>
+		<key>LDEmojiKeyboardJCFaceCode</key>
+		<string>[心痛]</string>
+		<key>LDEmojiKeyboardJCFaceName</key>
+		<string>LDEmojiKeyboard.bundle/face007_heartbreak</string>
+	</dict>
+</array>
+</plist>

@@ -7,7 +7,7 @@
 //
 
 #import "XCViewController.h"
-
-@interface CPSettingViewController : XCViewController
+#import "CPBaseTableViewController.h"
+@interface CPSettingViewController : CPBaseTableViewController
 
 @end

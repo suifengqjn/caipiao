@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Info.plist</key>
+		<data>
+		agO6MYtMR6YpF/VhO4nS9Pc/oQ0=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon24x24@2x.png</key>
+		<data>
+		CB+fT6vFL/eaX3H2iFzcsJlGz1Q=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		hlRNjMcgOd2hEmh2usAX0Ban4D8=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon29x29@2x.png</key>
+		<data>
+		5/ry0EDZYWCx8HZWBtdW1xztYFw=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon29x29@3x.png</key>
+		<data>
+		t1Gf/NS6M7wuerTm+aB9Jfeqf0g=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon40x40@2x.png</key>
+		<data>
+		K0ka7gwNMMgAjznxUs/nzoVaECk=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon44x44@2x.png</key>
+		<data>
+		gDkAo8TmlLqeHob5wgYFrKgG5Kc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon86x86@2x.png</key>
+		<data>
+		uqPtX7VJS+lydc+deAv9KGpDpL0=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon98x98@2x.png</key>
+		<data>
+		xheYqsJ7F3SM1n8Ry9SaU2HNkTI=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/Assets.car</key>
+		<data>
+		rjWRXk36ZOSVE2KOiMIykZax060=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface-glance.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4vc9yYgbhPZ5qvOQoLuqMeN3VvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BVsciaX86W7wnov+Z3I2mNfQ2mA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+H/KGUszL07HxiVLDoGuMvKSHXM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Info.plist</key>
+		<data>
+		+vhAwJpbQFDETTCrPiJsYtlQnyc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/NeteaseLottery WatchKit App</key>
+		<data>
+		Qp9AO33ZFvERuOWj45K/dPqHElc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		QaKJ6noDfTuGo/6aNnnhtFM+y2c=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		3V96lj2+l379O2uU47WEe8h2jUE=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		5/bQ5aXWXsz9H/6U0i6w3frAyTM=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		5/bQ5aXWXsz9H/6U0i6w3frAyTM=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>NeteaseLottery WatchKit App.app/AppIcon24x24@2x.png</key>
+		<data>
+		CB+fT6vFL/eaX3H2iFzcsJlGz1Q=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon27.5x27.5@2x.png</key>
+		<data>
+		hlRNjMcgOd2hEmh2usAX0Ban4D8=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon29x29@2x.png</key>
+		<data>
+		5/ry0EDZYWCx8HZWBtdW1xztYFw=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon29x29@3x.png</key>
+		<data>
+		t1Gf/NS6M7wuerTm+aB9Jfeqf0g=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon40x40@2x.png</key>
+		<data>
+		K0ka7gwNMMgAjznxUs/nzoVaECk=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon44x44@2x.png</key>
+		<data>
+		gDkAo8TmlLqeHob5wgYFrKgG5Kc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon86x86@2x.png</key>
+		<data>
+		uqPtX7VJS+lydc+deAv9KGpDpL0=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/AppIcon98x98@2x.png</key>
+		<data>
+		xheYqsJ7F3SM1n8Ry9SaU2HNkTI=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/Assets.car</key>
+		<data>
+		rjWRXk36ZOSVE2KOiMIykZax060=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface-glance.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4vc9yYgbhPZ5qvOQoLuqMeN3VvU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface-notification.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BVsciaX86W7wnov+Z3I2mNfQ2mA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Base.lproj/Interface.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+H/KGUszL07HxiVLDoGuMvKSHXM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>NeteaseLottery WatchKit App.app/Info.plist</key>
+		<data>
+		+vhAwJpbQFDETTCrPiJsYtlQnyc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/NeteaseLottery WatchKit App</key>
+		<data>
+		Qp9AO33ZFvERuOWj45K/dPqHElc=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/_CodeSignature/CodeResources</key>
+		<data>
+		QaKJ6noDfTuGo/6aNnnhtFM+y2c=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/_WatchKitStub/WK</key>
+		<data>
+		3V96lj2+l379O2uU47WEe8h2jUE=
+		</data>
+		<key>NeteaseLottery WatchKit App.app/archived-expanded-entitlements.xcent</key>
+		<data>
+		5/bQ5aXWXsz9H/6U0i6w3frAyTM=
+		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		5/bQ5aXWXsz9H/6U0i6w3frAyTM=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^</key>
+		<true/>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/|())SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Watch/[^/]+\.app/(Frameworks/[^/]+\.framework/|PlugIns/[^/]+\.appex/|PlugIns/[^/]+\.appex/Frameworks/[^/]+\.framework/)SC_Info/[^/]+\.(sinf|supf|supp)$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<integer>10000</integer>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

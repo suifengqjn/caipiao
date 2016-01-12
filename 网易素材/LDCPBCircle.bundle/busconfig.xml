@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="LDCPBCircle" connectorClass="LDCircleUIBusConnector">
+    <url_handler_list>
+        <!--圈子入口页-->
+        <ViewController name="circleBoard" class="LDCPCircleMainViewController">
+            <URLPattern name="p1" type="modal" />
+        </ViewController>
+        
+        <!-- 进入我的圈子的主页面 -->
+        <ViewController name="circleMyPosts" webquery="tab=(initWithTabIndex:)" class="LDCPCircleMyCircleController">
+        </ViewController>
+        
+        <!-- 进入帖子详情页面 -->
+        <ViewController name="circlePostDetail" webquery="postId=(initWithPostID:)" class="LDCPCirclePostDetailController">
+        </ViewController>
+        
+        <!-- 是否允许推送配置页面 -->
+        <ViewController name="circlePushSetting" class="LDCPCirclePushSettingController">
+        </ViewController>
+        
+    </url_handler_list>
+
+    <service_list>
+        <Service name="circleLiveService" protocol="LDCircleLiveService" class="LDCircleLiveServiceImpl" />
+        <Service name="circleAccountService" protocol="LDCircleAccountService" class="LDCircleAccountServiceImpl" />
+        <Service name="circleShareService" protocol="LDCircleShareService" class="LDCircleShareServiceImpl" />
+        <Service name="circleCommonService" protocol="LDCircleCommonService" class="LDCircleCommonServiceImpl" />
+    </service_list>
+    
+</bundle>
+<!--
+ （1）当bundle没有开发之前，可以优先开发wap页面,并在应用中打开； 但是可以根据业务要求确定bundle得UI总线导航配置；
+ (2) bus会自动判定当前有没有这个viewController的实现类，如果没有，targetclass＝nil；
+ (3) 如果能够跟JSBridge合用，将会有很大用处；
+ -->

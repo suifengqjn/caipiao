@@ -22,10 +22,12 @@
 
 //头文件==========================================
 #import "UIImage+XCAdditions.h"
+#import "UIColor+XCAdditions.h"
+#import "XCFile.h"
+#import "XCFileDiskCache.h"
 
+//#import "NSDictionary+XCAdditions.h"
 
-
-
-
+#define SKIN_COLOR(key)                     [UIColor colorWithHex:key];
 
 #endif /* PrefixHeader_pch */

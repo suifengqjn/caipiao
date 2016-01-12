@@ -1,0 +1,85 @@
+{
+    "services": [
+                 {
+                 "domain": "CPBridgeBetService",
+                 "exports": [
+                             {
+                             "showname": "matchbet",
+                             "realname": "matchBet",
+                             "level": 0
+                             },
+                             {
+                             "showname": "numberbet",
+                             "realname": "numberBet",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 },
+                 {
+                 "domain": "CPBridgeCommonService",
+                 "exports": [
+                             {
+                             "showname": "openurl",
+                             "realname": "openUrl",
+                             "level": 0
+                             },
+                             {
+                             "showname": "isappinstalled",
+                             "realname": "isAppInstalled",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 },
+                 {
+                 "domain": "CPBridgeLoginService",
+                 "exports": [
+                             {
+                             "showname": "login",
+                             "realname": "login",
+                             "level": 0
+                             },
+                             {
+                             "showname": "onCookieFinished",
+                             "realname": "onCookieFinished",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 },
+                 {
+                 "domain": "CPBridgeShareService",
+                 "exports": [
+                             {
+                             "showname": "onshare",
+                             "realname": "onShare",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 },
+                 {
+                 "domain": "CPBridgeIdentifyService",
+                 "exports": [
+                             {
+                             "showname": "Verify",
+                             "realname": "Verify",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 },
+                 {
+                 "domain": "HYGBridgeRechargeService",
+                 "exports": [
+                             {
+                             "showname": "recharge",
+                             "realname": "recharge",
+                             "level": 0
+                             }
+                             ],
+                 "islocal": true
+                 }
+                 ]
+}
