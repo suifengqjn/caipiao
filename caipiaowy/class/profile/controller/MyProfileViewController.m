@@ -23,11 +23,13 @@
     
     self.navigationItem.rightBarButtonItem = rightBarButtonItem;
     
-}
-- (IBAction)login:(UIButton *)sender {
     [_loginButton setBackgroundImage:[UIImage imageWithResizableImageName:@"RedButton"] forState:UIControlStateNormal];
     
     [_loginButton setBackgroundImage:[UIImage imageWithResizableImageName:@"RedButtonPressed"] forState:UIControlStateHighlighted];
+    
+}
+- (IBAction)login:(UIButton *)sender {
+    
 
 }
 

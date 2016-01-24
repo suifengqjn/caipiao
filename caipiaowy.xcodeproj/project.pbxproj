@@ -17,6 +17,12 @@
 		C218F11C1C3A0B2800810733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C218F11B1C3A0B2800810733 /* Assets.xcassets */; };
 		C218F11F1C3A0B2800810733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C218F11D1C3A0B2800810733 /* LaunchScreen.storyboard */; };
 		C218F1451C3A21E700810733 /* CPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C218F1441C3A21E700810733 /* CPTabBarViewController.m */; };
+		C23117C71C4BDBD7000A03B4 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C23117C21C4BDBD7000A03B4 /* MBProgressHUD.bundle */; };
+		C23117C81C4BDBD7000A03B4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C23117C41C4BDBD7000A03B4 /* MBProgressHUD.m */; };
+		C23117C91C4BDBD7000A03B4 /* XCHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C23117C61C4BDBD7000A03B4 /* XCHudHelper.m */; };
+		C23117CD1C4BDDF9000A03B4 /* CPScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C23117CC1C4BDDF9000A03B4 /* CPScoreViewController.m */; };
+		C23117D01C4BDF3F000A03B4 /* CPSettingLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C23117CF1C4BDF3F000A03B4 /* CPSettingLabelItem.m */; };
+		C23117D41C4BDF96000A03B4 /* ILSaveTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C23117D31C4BDF96000A03B4 /* ILSaveTool.m */; };
 		C28580221C3FECEF0041B622 /* CPSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580211C3FECEF0041B622 /* CPSettingItem.m */; };
 		C28580251C3FEECE0041B622 /* CPSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580241C3FEECE0041B622 /* CPSettingGroup.m */; };
 		C28580281C3FEF2D0041B622 /* CPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28580271C3FEF2D0041B622 /* CPSettingViewController.m */; };
@@ -90,6 +96,17 @@
 		C218F1201C3A0B2800810733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C218F1431C3A21E700810733 /* CPTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTabBarViewController.h; sourceTree = "<group>"; };
 		C218F1441C3A21E700810733 /* CPTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTabBarViewController.m; sourceTree = "<group>"; };
+		C23117C21C4BDBD7000A03B4 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		C23117C31C4BDBD7000A03B4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C23117C41C4BDBD7000A03B4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C23117C51C4BDBD7000A03B4 /* XCHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCHudHelper.h; sourceTree = "<group>"; };
+		C23117C61C4BDBD7000A03B4 /* XCHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCHudHelper.m; sourceTree = "<group>"; };
+		C23117CB1C4BDDF9000A03B4 /* CPScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPScoreViewController.h; sourceTree = "<group>"; };
+		C23117CC1C4BDDF9000A03B4 /* CPScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPScoreViewController.m; sourceTree = "<group>"; };
+		C23117CE1C4BDF3F000A03B4 /* CPSettingLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingLabelItem.h; sourceTree = "<group>"; };
+		C23117CF1C4BDF3F000A03B4 /* CPSettingLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingLabelItem.m; sourceTree = "<group>"; };
+		C23117D21C4BDF96000A03B4 /* ILSaveTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILSaveTool.h; sourceTree = "<group>"; };
+		C23117D31C4BDF96000A03B4 /* ILSaveTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILSaveTool.m; sourceTree = "<group>"; };
 		C28580201C3FECEF0041B622 /* CPSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingItem.h; sourceTree = "<group>"; };
 		C28580211C3FECEF0041B622 /* CPSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingItem.m; sourceTree = "<group>"; };
 		C28580231C3FEECE0041B622 /* CPSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingGroup.h; sourceTree = "<group>"; };
@@ -414,14 +431,13 @@
 		C218F13C1C3A0B7800810733 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				C23117CA1C4BDD58000A03B4 /* push */,
 				C2AD3C371C3C13CD007C3925 /* MyProfileViewController.h */,
 				C2AD3C381C3C13CD007C3925 /* MyProfileViewController.m */,
 				C28580261C3FEF2D0041B622 /* CPSettingViewController.h */,
 				C28580271C3FEF2D0041B622 /* CPSettingViewController.m */,
 				C201C07B1C428A7300E93C3F /* CPSettingPushVC.h */,
 				C201C07C1C428A7300E93C3F /* CPSettingPushVC.m */,
-				C286E05F1C43F6BD0050240A /* CPPushNoticeVC.h */,
-				C286E0601C43F6BD0050240A /* CPPushNoticeVC.m */,
 				C286E0621C43F7610050240A /* CPScoreNoticeViewController.h */,
 				C286E0631C43F7610050240A /* CPScoreNoticeViewController.m */,
 				C286E05C1C43F4430050240A /* CPBaseTableViewController.h */,
@@ -441,6 +457,8 @@
 				C201C0751C427D0200E93C3F /* CPSettingSwitchItem.m */,
 				C28580231C3FEECE0041B622 /* CPSettingGroup.h */,
 				C28580241C3FEECE0041B622 /* CPSettingGroup.m */,
+				C23117CE1C4BDF3F000A03B4 /* CPSettingLabelItem.h */,
+				C23117CF1C4BDF3F000A03B4 /* CPSettingLabelItem.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -479,6 +497,38 @@
 				C2A7698F1C3AC08D0096F055 /* CPTabBarButton.m */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		C23117C11C4BDBD7000A03B4 /* XCHudHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C23117C21C4BDBD7000A03B4 /* MBProgressHUD.bundle */,
+				C23117C31C4BDBD7000A03B4 /* MBProgressHUD.h */,
+				C23117C41C4BDBD7000A03B4 /* MBProgressHUD.m */,
+				C23117C51C4BDBD7000A03B4 /* XCHudHelper.h */,
+				C23117C61C4BDBD7000A03B4 /* XCHudHelper.m */,
+			);
+			path = XCHudHelper;
+			sourceTree = "<group>";
+		};
+		C23117CA1C4BDD58000A03B4 /* push */ = {
+			isa = PBXGroup;
+			children = (
+				C286E05F1C43F6BD0050240A /* CPPushNoticeVC.h */,
+				C286E0601C43F6BD0050240A /* CPPushNoticeVC.m */,
+				C23117CB1C4BDDF9000A03B4 /* CPScoreViewController.h */,
+				C23117CC1C4BDDF9000A03B4 /* CPScoreViewController.m */,
+			);
+			name = push;
+			sourceTree = "<group>";
+		};
+		C23117D11C4BDF96000A03B4 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				C23117D21C4BDF96000A03B4 /* ILSaveTool.h */,
+				C23117D31C4BDF96000A03B4 /* ILSaveTool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		C2AD3BB11C3BF5DA007C3925 /* other */ = {
@@ -560,6 +610,7 @@
 		C2AD3BD31C3BF5DA007C3925 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C23117D11C4BDF96000A03B4 /* Tool */,
 				C2E94F5D1C40F6FA00F73289 /* XCUtils.h */,
 				C2E94F5E1C40F6FA00F73289 /* XCUtils.m */,
 				C2AD3BD41C3BF5DA007C3925 /* iToast */,
@@ -579,6 +630,7 @@
 		C2AD3BD71C3BF5DA007C3925 /* vender */ = {
 			isa = PBXGroup;
 			children = (
+				C23117C11C4BDBD7000A03B4 /* XCHudHelper */,
 			);
 			path = vender;
 			sourceTree = "<group>";
@@ -711,6 +763,7 @@
 			files = (
 				C218F11F1C3A0B2800810733 /* LaunchScreen.storyboard in Resources */,
 				C2B6A7541C3B7AD200CC2EB7 /* Images.xcassets in Resources */,
+				C23117C71C4BDBD7000A03B4 /* MBProgressHUD.bundle in Resources */,
 				C218F11C1C3A0B2800810733 /* Assets.xcassets in Resources */,
 				C218F11A1C3A0B2800810733 /* Main.storyboard in Resources */,
 			);
@@ -731,6 +784,7 @@
 				C2AD3C2C1C3BF636007C3925 /* UIImageView+WebCache.m in Sources */,
 				C218F1451C3A21E700810733 /* CPTabBarViewController.m in Sources */,
 				C2AD3BE21C3BF5DA007C3925 /* XCTextView.m in Sources */,
+				C23117C91C4BDBD7000A03B4 /* XCHudHelper.m in Sources */,
 				C2AD3C1F1C3BF636007C3925 /* NSData+ImageContentType.m in Sources */,
 				C2AD3BD91C3BF5DA007C3925 /* XCNavigationController.m in Sources */,
 				C2AD3BDB1C3BF5DA007C3925 /* XCTableViewController.m in Sources */,
@@ -743,6 +797,7 @@
 				C2AD3BF61C3BF627007C3925 /* AFHTTPSessionManager.m in Sources */,
 				C2FB37351C44EBFD001CC675 /* UIColor+XCAdditions.m in Sources */,
 				C2AD3C2B1C3BF636007C3925 /* UIImageView+HighlightedWebCache.m in Sources */,
+				C23117D01C4BDF3F000A03B4 /* CPSettingLabelItem.m in Sources */,
 				C2AD3BE31C3BF5DA007C3925 /* UIDevice+Addtion.m in Sources */,
 				C2AD3BE01C3BF5DA007C3925 /* XCLabel.m in Sources */,
 				C2AD3C251C3BF636007C3925 /* SDWebImageManager.m in Sources */,
@@ -750,6 +805,7 @@
 				C2AD3C301C3C0C51007C3925 /* CPTitleButton.m in Sources */,
 				C2AD3BDA1C3BF5DA007C3925 /* XCTabBarController.m in Sources */,
 				C2AD3BDD1C3BF5DA007C3925 /* XCButton.m in Sources */,
+				C23117CD1C4BDDF9000A03B4 /* CPScoreViewController.m in Sources */,
 				C2AD3C281C3BF636007C3925 /* UIImage+GIF.m in Sources */,
 				C2A7698D1C3ABE4B0096F055 /* CPTabBar.m in Sources */,
 				C201C07D1C428A7300E93C3F /* CPSettingPushVC.m in Sources */,
@@ -764,6 +820,7 @@
 				C2A769901C3AC08D0096F055 /* CPTabBarButton.m in Sources */,
 				C2E94F5F1C40F6FA00F73289 /* XCUtils.m in Sources */,
 				C2AD3BE41C3BF5DA007C3925 /* UIView+XCAdditions.m in Sources */,
+				C23117D41C4BDF96000A03B4 /* ILSaveTool.m in Sources */,
 				C286E0611C43F6BD0050240A /* CPPushNoticeVC.m in Sources */,
 				C218F1111C3A0B2800810733 /* main.m in Sources */,
 				C2AD3C221C3BF636007C3925 /* SDWebImageDecoder.m in Sources */,
@@ -778,6 +835,7 @@
 				C2AD3C231C3BF636007C3925 /* SDWebImageDownloader.m in Sources */,
 				C2AD3C1E1C3BF636007C3925 /* MKAnnotationView+WebCache.m in Sources */,
 				C2AD3BFA1C3BF627007C3925 /* AFURLResponseSerialization.m in Sources */,
+				C23117C81C4BDBD7000A03B4 /* MBProgressHUD.m in Sources */,
 				C2AD3BD81C3BF5DA007C3925 /* XCCollectionViewController.m in Sources */,
 				C2AD3C391C3C13CD007C3925 /* MyProfileViewController.m in Sources */,
 				C2AD3C201C3BF636007C3925 /* SDImageCache.m in Sources */,

@@ -10,7 +10,7 @@
 #import "CPSettingGroup.h"
 #import "CPSettingArrowItem.h"
 #import "CPScoreNoticeViewController.h"
-
+#import "CPScoreViewController.h"
 @interface CPPushNoticeVC ()
 
 @end
@@ -33,7 +33,7 @@
     
     CPSettingItem *anim = [CPSettingArrowItem itemWithIcon:nil title:@"中奖动画"];
     
-    CPSettingItem *score = [CPSettingArrowItem itemWithIcon:nil title:@"比分直播" destVcClass:[CPScoreNoticeViewController class]];
+    CPSettingItem *score = [CPSettingArrowItem itemWithIcon:nil title:@"比分直播" destVcClass:[CPScoreViewController class]];
     CPSettingItem *timer = [CPSettingArrowItem itemWithIcon:nil title:@"购彩定时提醒"];
     
     CPSettingGroup *group0 = [[CPSettingGroup alloc] init];

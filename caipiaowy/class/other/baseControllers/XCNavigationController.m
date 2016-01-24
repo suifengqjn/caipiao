@@ -39,6 +39,7 @@
                            NSFontAttributeName : [UIFont systemFontOfSize:15.0]
                            };
     [self.navigationBar setTitleTextAttributes:dict];
+    self.navigationBar.tintColor = [UIColor whiteColor];
 
 }
 

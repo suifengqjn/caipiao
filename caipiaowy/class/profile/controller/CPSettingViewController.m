@@ -14,7 +14,7 @@
 #import "CPSettingGroup.h"
 #import "XCTableViewController.h"
 #import "CPSettingPushVC.h"
-
+#import "XCHudHelper.h"
 #import "CPPushNoticeVC.h"
 @interface CPSettingViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -38,17 +38,17 @@
         
         CPSettingGroup *group0 = [[CPSettingGroup alloc] init];
         group0.items = @[pushNotice,yaoyiyao,sound];
-        group0.headTitle = @"asdas";
-        group0.footTitle = @"asdasd";
+//        group0.headTitle = @"asdas";
+//        group0.footTitle = @"asdasd";
         // 1组
         CPSettingItem *newVersion = [CPSettingArrowItem itemWithIcon:[UIImage imageNamed:@"MoreUpdate"] title:@"检查新版本"];
         // 保存了一段检查更新的功能
         newVersion.option = ^{
             // 1.显示蒙板
-            //[MBProgressHUD showMessage:@"正在检查ing......."];
+            [XCHudHelper showMessage:@"正在检查ing......."];
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 // 2.隐藏蒙板
-                //[MBProgressHUD hideHUD];
+                [XCHudHelper hideHUD];
                 
                 // 3.提示用户
                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"有更新版本" message:nil delegate:nil cancelButtonTitle:@"取消" otherButtonTitles:@"立即更新", nil];

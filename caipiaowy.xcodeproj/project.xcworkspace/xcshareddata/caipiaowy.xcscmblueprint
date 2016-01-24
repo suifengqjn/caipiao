@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1871FC24647161681E95D92B4C38498F42A8C83",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2B28705FAA1418B11C0F401AC1EAFE4C8ACB0F71" : 0,
+    "E1871FC24647161681E95D92B4C38498F42A8C83" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "825BD72A-7471-4796-94AC-26D7FFB60618",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2B28705FAA1418B11C0F401AC1EAFE4C8ACB0F71" : "caipiao\/caipiaowy\/class\/other\/vender\/XCHudHelper\/",
+    "E1871FC24647161681E95D92B4C38498F42A8C83" : "caipiao\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "caipiaowy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "caipiaowy.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suifengqjn\/---XCHudHelper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B28705FAA1418B11C0F401AC1EAFE4C8ACB0F71"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/suifengqjn\/caipiao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1871FC24647161681E95D92B4C38498F42A8C83"
+    }
+  ]
+}

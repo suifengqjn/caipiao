@@ -10,11 +10,12 @@
 #import "CPSettingItem.h"
 #import "CPSettingArrowItem.h"
 #import "CPSettingSwitchItem.h"
+#import "CPSettingLabelItem.h"
 @interface CPSettingCell ()
 
 @property (nonatomic, strong) UIImageView *imgView;
 @property (nonatomic, strong) UISwitch *switchView;
-
+@property (nonatomic, strong) UILabel *labelView;
 @end
 
 @implementation CPSettingCell
@@ -45,6 +46,16 @@
         _switchView = [[UISwitch alloc] init];
     }
     return _switchView;
+}
+- (UILabel *)labelView
+{
+    if (_labelView == nil) {
+        _labelView = [[UILabel alloc] init];
+        _labelView.bounds = CGRectMake(0, 0, 100, 44);
+        _labelView.textColor = [UIColor redColor];
+        _labelView.textAlignment = NSTextAlignmentRight;
+    }
+    return _labelView;
 }
 
 - (void)setItem:(CPSettingItem *)item
@@ -78,7 +89,14 @@
     }else if ([_item isKindOfClass:[CPSettingSwitchItem class]]){ // Switch
         self.accessoryView = self.switchView;
         self.selectionStyle = UITableViewCellSelectionStyleNone; //Switch取消点击效果
-    }else{
+    }else if ([_item isKindOfClass:[CPSettingLabelItem class]]){
+        self.accessoryView = self.labelView;
+        
+        CPSettingLabelItem *labelItem = (CPSettingLabelItem *)_item;
+        self.labelView.text = labelItem.text;
+
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+    } else {
         self.accessoryView = nil;
         self.selectionStyle = UITableViewCellSelectionStyleDefault;
     }
@@ -91,7 +109,7 @@
     CPSettingCell *cell = [tableView dequeueReusableCellWithIdentifier:ID ];
     
     if (cell == nil) {
-        cell = [[CPSettingCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID];
+        cell = [[CPSettingCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
     }
     
     return cell;
