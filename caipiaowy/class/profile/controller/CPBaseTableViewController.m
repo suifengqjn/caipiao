@@ -82,6 +82,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
+    
     CPSettingGroup *group = self.dataList[section];
     return group.headTitle;
 }
