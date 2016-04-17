@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="toS-0y-FWl" customClass="XMGProductCell">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="15a-Ix-qmo">
+                        <rect key="frame" x="15" y="25" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="HY8-ss-s1J"/>
+                            <constraint firstAttribute="width" constant="40" id="LcN-mT-54f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mvJ-x4-FLM">
+                        <rect key="frame" x="65" y="25" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naz-tJ-6bp">
+                        <rect key="frame" x="65" y="47" width="31" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F30-bb-o61">
+                        <rect key="frame" x="245" y="30" width="29" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="29" id="byp-vU-9LR"/>
+                            <constraint firstAttribute="height" constant="29" id="new-vV-nAk"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="appadcell_downloadbutton"/>
+                        <connections>
+                            <action selector="downLoadBtnClicked:" destination="toS-0y-FWl" eventType="touchDown" id="sda-CH-aTQ"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="naz-tJ-6bp" firstAttribute="top" secondItem="mvJ-x4-FLM" secondAttribute="bottom" constant="5" id="Ij8-Ae-7uC"/>
+                <constraint firstItem="F30-bb-o61" firstAttribute="centerY" secondItem="15a-Ix-qmo" secondAttribute="centerY" id="Mpd-je-RHa"/>
+                <constraint firstItem="naz-tJ-6bp" firstAttribute="leading" secondItem="mvJ-x4-FLM" secondAttribute="leading" id="Nmu-JB-7iY"/>
+                <constraint firstItem="mvJ-x4-FLM" firstAttribute="leading" secondItem="15a-Ix-qmo" secondAttribute="trailing" constant="10" id="Yox-kb-ads"/>
+                <constraint firstItem="F30-bb-o61" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mvJ-x4-FLM" secondAttribute="trailing" constant="10" id="cwA-e2-YXt"/>
+                <constraint firstAttribute="trailing" secondItem="F30-bb-o61" secondAttribute="trailing" constant="15" id="nJ3-2m-4dS"/>
+                <constraint firstItem="mvJ-x4-FLM" firstAttribute="top" secondItem="15a-Ix-qmo" secondAttribute="top" id="r7y-in-ER3"/>
+                <constraint firstItem="15a-Ix-qmo" firstAttribute="leading" secondItem="toS-0y-FWl" secondAttribute="leading" constant="15" id="rLK-xS-TCU"/>
+                <constraint firstItem="15a-Ix-qmo" firstAttribute="centerY" secondItem="toS-0y-FWl" secondAttribute="centerY" id="s7o-20-bm5"/>
+                <constraint firstItem="F30-bb-o61" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="naz-tJ-6bp" secondAttribute="trailing" constant="10" id="x5N-zJ-mNM"/>
+            </constraints>
+            <size key="customSize" width="289" height="89"/>
+            <connections>
+                <outlet property="btnDownload" destination="F30-bb-o61" id="WJJ-98-99Y"/>
+                <outlet property="imageView" destination="15a-Ix-qmo" id="Iwb-3i-mEC"/>
+                <outlet property="labelDes" destination="naz-tJ-6bp" id="QgM-RH-cCP"/>
+                <outlet property="labelName" destination="mvJ-x4-FLM" id="ugV-lZ-JJw"/>
+            </connections>
+            <point key="canvasLocation" x="199.5" y="233.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="appadcell_downloadbutton" width="29" height="29"/>
+    </resources>
+</document>

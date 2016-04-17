@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2D6F221BA40D4B00CE4207 /* XMGHallFocusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D6F211BA40D4B00CE4207 /* XMGHallFocusCell.m */; };
+		0A2D6F251BA410A400CE4207 /* XMGHallFocusCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D6F241BA410A400CE4207 /* XMGHallFocusCollectionCell.m */; };
+		0A2D6F2A1BA4215500CE4207 /* XMGGuessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D6F281BA4215500CE4207 /* XMGGuessCell.m */; };
+		0A2D6F2B1BA4215500CE4207 /* XMGGuessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2D6F291BA4215500CE4207 /* XMGGuessCell.xib */; };
+		0A2D6F2F1BA4216B00CE4207 /* XMGGuessBgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2D6F2D1BA4216B00CE4207 /* XMGGuessBgCell.m */; };
+		0A2D6F301BA4216B00CE4207 /* XMGGuessBgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2D6F2E1BA4216B00CE4207 /* XMGGuessBgCell.xib */; };
+		0A5A1D361B8AC31200D8E45E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D351B8AC31200D8E45E /* main.m */; };
+		0A5A1D411B8AC31200D8E45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5A1D401B8AC31200D8E45E /* Assets.xcassets */; };
+		0A5A1D6C1B8AFBFF00D8E45E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D651B8AFBFF00D8E45E /* AppDelegate.m */; };
+		0A5A1D6D1B8AFBFF00D8E45E /* XMGMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D671B8AFBFF00D8E45E /* XMGMainController.m */; };
+		0A5A1D701B8AFC9800D8E45E /* XMGLotteryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D6F1B8AFC9800D8E45E /* XMGLotteryController.m */; };
+		0A5A1D731B8AFFA000D8E45E /* XMGAwardInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D721B8AFFA000D8E45E /* XMGAwardInfoController.m */; };
+		0A5A1D761B8AFFB200D8E45E /* XMGDiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D751B8AFFB200D8E45E /* XMGDiscoveryController.m */; };
+		0A5A1D7C1B8AFFD200D8E45E /* XMGSportsAreaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D7B1B8AFFD200D8E45E /* XMGSportsAreaController.m */; };
+		0A5A1D801B8B090000D8E45E /* XMGTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D7F1B8B090000D8E45E /* XMGTabbar.m */; };
+		0A5A1D831B8B091900D8E45E /* XMGTabbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D821B8B091900D8E45E /* XMGTabbarItem.m */; };
+		0A5A1D861B8B33CC00D8E45E /* XMGNaviController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D851B8B33CC00D8E45E /* XMGNaviController.m */; };
+		0A5A1D8A1B8B428700D8E45E /* UIImage+resized.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5A1D891B8B428700D8E45E /* UIImage+resized.m */; };
+		0A6DA20E1BA5CA800064DAA1 /* XMGAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1EE1BA5CA800064DAA1 /* XMGAboutController.m */; };
+		0A6DA20F1BA5CA800064DAA1 /* XMGAwardPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1F01BA5CA800064DAA1 /* XMGAwardPushController.m */; };
+		0A6DA2101BA5CA800064DAA1 /* XMGBaseSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1F21BA5CA800064DAA1 /* XMGBaseSettingController.m */; };
+		0A6DA2111BA5CA800064DAA1 /* XMGLotteryPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1F41BA5CA800064DAA1 /* XMGLotteryPushController.m */; };
+		0A6DA2121BA5CA800064DAA1 /* XMGMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1F61BA5CA800064DAA1 /* XMGMineController.m */; };
+		0A6DA2131BA5CA800064DAA1 /* XMGPointPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1F81BA5CA800064DAA1 /* XMGPointPushController.m */; };
+		0A6DA2141BA5CA800064DAA1 /* XMGPointPushSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1FA1BA5CA800064DAA1 /* XMGPointPushSettingController.m */; };
+		0A6DA2151BA5CA800064DAA1 /* XMGPushController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1FC1BA5CA800064DAA1 /* XMGPushController.m */; };
+		0A6DA2161BA5CA800064DAA1 /* XMGSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA1FE1BA5CA800064DAA1 /* XMGSettingController.m */; };
+		0A6DA2171BA5CA800064DAA1 /* XMGSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA2011BA5CA800064DAA1 /* XMGSettingGroup.m */; };
+		0A6DA2181BA5CA800064DAA1 /* XMGSettingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA2031BA5CA800064DAA1 /* XMGSettingModel.m */; };
+		0A6DA2191BA5CA800064DAA1 /* XMGSettingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA2071BA5CA800064DAA1 /* XMGSettingTool.m */; };
+		0A6DA21A1BA5CA800064DAA1 /* XMGAboutHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA20A1BA5CA800064DAA1 /* XMGAboutHeaderView.m */; };
+		0A6DA21B1BA5CA800064DAA1 /* XMGAboutHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A6DA20B1BA5CA800064DAA1 /* XMGAboutHeaderView.xib */; };
+		0A6DA21C1BA5CA800064DAA1 /* XMGSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6DA20D1BA5CA800064DAA1 /* XMGSettingCell.m */; };
+		0AF9DAD71BA47B4A0029735D /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9DAD61BA47B4A0029735D /* List.plist */; };
+		0AF9DADB1BA47CE50029735D /* XMGLotteryChoossCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9DADA1BA47CE50029735D /* XMGLotteryChoossCell.m */; };
+		0AF9DADE1BA47D010029735D /* XMGChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9DADD1BA47D010029735D /* XMGChooseView.m */; };
+		0AF9DAE01BA47D260029735D /* XMGChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF9DADF1BA47D260029735D /* XMGChooseView.xib */; };
+		0AF9DAE41BA555710029735D /* XMGHallMarginCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9DAE31BA555710029735D /* XMGHallMarginCell.m */; };
+		0AF9DAE71BA558CD0029735D /* XMGLotteryChooseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9DAE61BA558CD0029735D /* XMGLotteryChooseModel.m */; };
+		0AF9DAEA1BA567730029735D /* XMGLotteryChooseGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9DAE91BA567730029735D /* XMGLotteryChooseGroup.m */; };
+		0AFEAA301BA6DC0D00E92650 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = 0AFEAA2F1BA6DC0D00E92650 /* more_project.json */; };
+		0AFEAA331BA6F74000E92650 /* XMGProductController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEAA321BA6F74000E92650 /* XMGProductController.m */; };
+		0AFEAA361BA6F75A00E92650 /* XMGProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEAA351BA6F75A00E92650 /* XMGProductModel.m */; };
+		0AFEAA3A1BA6F76B00E92650 /* XMGProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFEAA381BA6F76B00E92650 /* XMGProductCell.m */; };
+		0AFEAA3B1BA6F76B00E92650 /* XMGProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AFEAA391BA6F76B00E92650 /* XMGProductCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2D6F201BA40D4B00CE4207 /* XMGHallFocusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHallFocusCell.h; sourceTree = "<group>"; };
+		0A2D6F211BA40D4B00CE4207 /* XMGHallFocusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHallFocusCell.m; sourceTree = "<group>"; };
+		0A2D6F231BA410A400CE4207 /* XMGHallFocusCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHallFocusCollectionCell.h; sourceTree = "<group>"; };
+		0A2D6F241BA410A400CE4207 /* XMGHallFocusCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHallFocusCollectionCell.m; sourceTree = "<group>"; };
+		0A2D6F271BA4215500CE4207 /* XMGGuessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGGuessCell.h; sourceTree = "<group>"; };
+		0A2D6F281BA4215500CE4207 /* XMGGuessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGGuessCell.m; sourceTree = "<group>"; };
+		0A2D6F291BA4215500CE4207 /* XMGGuessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGGuessCell.xib; sourceTree = "<group>"; };
+		0A2D6F2C1BA4216B00CE4207 /* XMGGuessBgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGGuessBgCell.h; sourceTree = "<group>"; };
+		0A2D6F2D1BA4216B00CE4207 /* XMGGuessBgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGGuessBgCell.m; sourceTree = "<group>"; };
+		0A2D6F2E1BA4216B00CE4207 /* XMGGuessBgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGGuessBgCell.xib; sourceTree = "<group>"; };
+		0A5A1D311B8AC31200D8E45E /* XMGLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A5A1D351B8AC31200D8E45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A5A1D401B8AC31200D8E45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A5A1D451B8AC31200D8E45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A5A1D641B8AFBFF00D8E45E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A5A1D651B8AFBFF00D8E45E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A5A1D661B8AFBFF00D8E45E /* XMGMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMainController.h; sourceTree = "<group>"; };
+		0A5A1D671B8AFBFF00D8E45E /* XMGMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMainController.m; sourceTree = "<group>"; };
+		0A5A1D6E1B8AFC9800D8E45E /* XMGLotteryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLotteryController.h; sourceTree = "<group>"; };
+		0A5A1D6F1B8AFC9800D8E45E /* XMGLotteryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLotteryController.m; sourceTree = "<group>"; };
+		0A5A1D711B8AFFA000D8E45E /* XMGAwardInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAwardInfoController.h; sourceTree = "<group>"; };
+		0A5A1D721B8AFFA000D8E45E /* XMGAwardInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAwardInfoController.m; sourceTree = "<group>"; };
+		0A5A1D741B8AFFB200D8E45E /* XMGDiscoveryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGDiscoveryController.h; sourceTree = "<group>"; };
+		0A5A1D751B8AFFB200D8E45E /* XMGDiscoveryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGDiscoveryController.m; sourceTree = "<group>"; };
+		0A5A1D7A1B8AFFD200D8E45E /* XMGSportsAreaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSportsAreaController.h; sourceTree = "<group>"; };
+		0A5A1D7B1B8AFFD200D8E45E /* XMGSportsAreaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSportsAreaController.m; sourceTree = "<group>"; };
+		0A5A1D7E1B8B090000D8E45E /* XMGTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabbar.h; sourceTree = "<group>"; };
+		0A5A1D7F1B8B090000D8E45E /* XMGTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabbar.m; sourceTree = "<group>"; };
+		0A5A1D811B8B091900D8E45E /* XMGTabbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGTabbarItem.h; sourceTree = "<group>"; };
+		0A5A1D821B8B091900D8E45E /* XMGTabbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabbarItem.m; sourceTree = "<group>"; };
+		0A5A1D841B8B33CC00D8E45E /* XMGNaviController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNaviController.h; sourceTree = "<group>"; };
+		0A5A1D851B8B33CC00D8E45E /* XMGNaviController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNaviController.m; sourceTree = "<group>"; };
+		0A5A1D881B8B428700D8E45E /* UIImage+resized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+resized.h"; sourceTree = "<group>"; };
+		0A5A1D891B8B428700D8E45E /* UIImage+resized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+resized.m"; sourceTree = "<group>"; };
+		0A6DA1ED1BA5CA800064DAA1 /* XMGAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAboutController.h; sourceTree = "<group>"; };
+		0A6DA1EE1BA5CA800064DAA1 /* XMGAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAboutController.m; sourceTree = "<group>"; };
+		0A6DA1EF1BA5CA800064DAA1 /* XMGAwardPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAwardPushController.h; sourceTree = "<group>"; };
+		0A6DA1F01BA5CA800064DAA1 /* XMGAwardPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAwardPushController.m; sourceTree = "<group>"; };
+		0A6DA1F11BA5CA800064DAA1 /* XMGBaseSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGBaseSettingController.h; sourceTree = "<group>"; };
+		0A6DA1F21BA5CA800064DAA1 /* XMGBaseSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGBaseSettingController.m; sourceTree = "<group>"; };
+		0A6DA1F31BA5CA800064DAA1 /* XMGLotteryPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLotteryPushController.h; sourceTree = "<group>"; };
+		0A6DA1F41BA5CA800064DAA1 /* XMGLotteryPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLotteryPushController.m; sourceTree = "<group>"; };
+		0A6DA1F51BA5CA800064DAA1 /* XMGMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMineController.h; sourceTree = "<group>"; };
+		0A6DA1F61BA5CA800064DAA1 /* XMGMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMineController.m; sourceTree = "<group>"; };
+		0A6DA1F71BA5CA800064DAA1 /* XMGPointPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPointPushController.h; sourceTree = "<group>"; };
+		0A6DA1F81BA5CA800064DAA1 /* XMGPointPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPointPushController.m; sourceTree = "<group>"; };
+		0A6DA1F91BA5CA800064DAA1 /* XMGPointPushSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPointPushSettingController.h; sourceTree = "<group>"; };
+		0A6DA1FA1BA5CA800064DAA1 /* XMGPointPushSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPointPushSettingController.m; sourceTree = "<group>"; };
+		0A6DA1FB1BA5CA800064DAA1 /* XMGPushController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPushController.h; sourceTree = "<group>"; };
+		0A6DA1FC1BA5CA800064DAA1 /* XMGPushController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPushController.m; sourceTree = "<group>"; };
+		0A6DA1FD1BA5CA800064DAA1 /* XMGSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingController.h; sourceTree = "<group>"; };
+		0A6DA1FE1BA5CA800064DAA1 /* XMGSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingController.m; sourceTree = "<group>"; };
+		0A6DA2001BA5CA800064DAA1 /* XMGSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingGroup.h; sourceTree = "<group>"; };
+		0A6DA2011BA5CA800064DAA1 /* XMGSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingGroup.m; sourceTree = "<group>"; };
+		0A6DA2021BA5CA800064DAA1 /* XMGSettingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingModel.h; sourceTree = "<group>"; };
+		0A6DA2031BA5CA800064DAA1 /* XMGSettingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingModel.m; sourceTree = "<group>"; };
+		0A6DA2051BA5CA800064DAA1 /* XMGSettingKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingKeys.h; sourceTree = "<group>"; };
+		0A6DA2061BA5CA800064DAA1 /* XMGSettingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingTool.h; sourceTree = "<group>"; };
+		0A6DA2071BA5CA800064DAA1 /* XMGSettingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingTool.m; sourceTree = "<group>"; };
+		0A6DA2091BA5CA800064DAA1 /* XMGAboutHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAboutHeaderView.h; sourceTree = "<group>"; };
+		0A6DA20A1BA5CA800064DAA1 /* XMGAboutHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAboutHeaderView.m; sourceTree = "<group>"; };
+		0A6DA20B1BA5CA800064DAA1 /* XMGAboutHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGAboutHeaderView.xib; sourceTree = "<group>"; };
+		0A6DA20C1BA5CA800064DAA1 /* XMGSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSettingCell.h; sourceTree = "<group>"; };
+		0A6DA20D1BA5CA800064DAA1 /* XMGSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSettingCell.m; sourceTree = "<group>"; };
+		0A9685AC1B8C6C33000E19BF /* XMGLottery-PCH.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XMGLottery-PCH.pch"; sourceTree = "<group>"; };
+		0AF9DAD61BA47B4A0029735D /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		0AF9DAD91BA47CE50029735D /* XMGLotteryChoossCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLotteryChoossCell.h; sourceTree = "<group>"; };
+		0AF9DADA1BA47CE50029735D /* XMGLotteryChoossCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLotteryChoossCell.m; sourceTree = "<group>"; };
+		0AF9DADC1BA47D010029735D /* XMGChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGChooseView.h; sourceTree = "<group>"; };
+		0AF9DADD1BA47D010029735D /* XMGChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGChooseView.m; sourceTree = "<group>"; };
+		0AF9DADF1BA47D260029735D /* XMGChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGChooseView.xib; sourceTree = "<group>"; };
+		0AF9DAE21BA555710029735D /* XMGHallMarginCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGHallMarginCell.h; sourceTree = "<group>"; };
+		0AF9DAE31BA555710029735D /* XMGHallMarginCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGHallMarginCell.m; sourceTree = "<group>"; };
+		0AF9DAE51BA558CD0029735D /* XMGLotteryChooseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLotteryChooseModel.h; sourceTree = "<group>"; };
+		0AF9DAE61BA558CD0029735D /* XMGLotteryChooseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLotteryChooseModel.m; sourceTree = "<group>"; };
+		0AF9DAE81BA567730029735D /* XMGLotteryChooseGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGLotteryChooseGroup.h; sourceTree = "<group>"; };
+		0AF9DAE91BA567730029735D /* XMGLotteryChooseGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGLotteryChooseGroup.m; sourceTree = "<group>"; };
+		0AFEAA2F1BA6DC0D00E92650 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
+		0AFEAA311BA6F74000E92650 /* XMGProductController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGProductController.h; sourceTree = "<group>"; };
+		0AFEAA321BA6F74000E92650 /* XMGProductController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGProductController.m; sourceTree = "<group>"; };
+		0AFEAA341BA6F75A00E92650 /* XMGProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGProductModel.h; sourceTree = "<group>"; };
+		0AFEAA351BA6F75A00E92650 /* XMGProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGProductModel.m; sourceTree = "<group>"; };
+		0AFEAA371BA6F76B00E92650 /* XMGProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGProductCell.h; sourceTree = "<group>"; };
+		0AFEAA381BA6F76B00E92650 /* XMGProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGProductCell.m; sourceTree = "<group>"; };
+		0AFEAA391BA6F76B00E92650 /* XMGProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGProductCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A5A1D2E1B8AC31200D8E45E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A19A2461BA85D1A003F29B3 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA1EF1BA5CA800064DAA1 /* XMGAwardPushController.h */,
+				0A6DA1F01BA5CA800064DAA1 /* XMGAwardPushController.m */,
+				0A6DA1F31BA5CA800064DAA1 /* XMGLotteryPushController.h */,
+				0A6DA1F41BA5CA800064DAA1 /* XMGLotteryPushController.m */,
+				0A6DA1F71BA5CA800064DAA1 /* XMGPointPushController.h */,
+				0A6DA1F81BA5CA800064DAA1 /* XMGPointPushController.m */,
+				0A6DA1F91BA5CA800064DAA1 /* XMGPointPushSettingController.h */,
+				0A6DA1FA1BA5CA800064DAA1 /* XMGPointPushSettingController.m */,
+				0A6DA1FB1BA5CA800064DAA1 /* XMGPushController.h */,
+				0A6DA1FC1BA5CA800064DAA1 /* XMGPushController.m */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		0A19A2471BA85D22003F29B3 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA1ED1BA5CA800064DAA1 /* XMGAboutController.h */,
+				0A6DA1EE1BA5CA800064DAA1 /* XMGAboutController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		0A19A2481BA85D2C003F29B3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA1F51BA5CA800064DAA1 /* XMGMineController.h */,
+				0A6DA1F61BA5CA800064DAA1 /* XMGMineController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		0A19A2491BA85D40003F29B3 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEAA311BA6F74000E92650 /* XMGProductController.h */,
+				0AFEAA321BA6F74000E92650 /* XMGProductController.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		0A2D6F261BA4212400CE4207 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				0A2D6F201BA40D4B00CE4207 /* XMGHallFocusCell.h */,
+				0A2D6F211BA40D4B00CE4207 /* XMGHallFocusCell.m */,
+				0A2D6F231BA410A400CE4207 /* XMGHallFocusCollectionCell.h */,
+				0A2D6F241BA410A400CE4207 /* XMGHallFocusCollectionCell.m */,
+			);
+			name = Focus;
+			sourceTree = "<group>";
+		};
+		0A5A1D281B8AC31200D8E45E = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D331B8AC31200D8E45E /* XMGLottery */,
+				0A5A1D321B8AC31200D8E45E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A5A1D321B8AC31200D8E45E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D311B8AC31200D8E45E /* XMGLottery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A5A1D331B8AC31200D8E45E /* XMGLottery */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D521B8AFBFF00D8E45E /* Classes */,
+				0A5A1D341B8AC31200D8E45E /* Supporting Files */,
+			);
+			path = XMGLottery;
+			sourceTree = "<group>";
+		};
+		0A5A1D341B8AC31200D8E45E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D401B8AC31200D8E45E /* Assets.xcassets */,
+				0A9685AC1B8C6C33000E19BF /* XMGLottery-PCH.pch */,
+				0AF9DAD61BA47B4A0029735D /* List.plist */,
+				0AFEAA2F1BA6DC0D00E92650 /* more_project.json */,
+				0A5A1D451B8AC31200D8E45E /* Info.plist */,
+				0A5A1D351B8AC31200D8E45E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A5A1D521B8AFBFF00D8E45E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D5B1B8AFBFF00D8E45E /* LotteryHall */,
+				0A5A1D531B8AFBFF00D8E45E /* AwardInfo */,
+				0A5A1D571B8AFBFF00D8E45E /* Discovery */,
+				0A5A1D681B8AFBFF00D8E45E /* SportsArea */,
+				0A6DA1EB1BA5CA800064DAA1 /* Mine */,
+				0A5A1D631B8AFBFF00D8E45E /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0A5A1D531B8AFBFF00D8E45E /* AwardInfo */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D541B8AFBFF00D8E45E /* Controller */,
+				0A5A1D551B8AFBFF00D8E45E /* Model */,
+				0A5A1D561B8AFBFF00D8E45E /* View */,
+			);
+			path = AwardInfo;
+			sourceTree = "<group>";
+		};
+		0A5A1D541B8AFBFF00D8E45E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D711B8AFFA000D8E45E /* XMGAwardInfoController.h */,
+				0A5A1D721B8AFFA000D8E45E /* XMGAwardInfoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A5A1D551B8AFBFF00D8E45E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A5A1D561B8AFBFF00D8E45E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A5A1D571B8AFBFF00D8E45E /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D581B8AFBFF00D8E45E /* Controller */,
+				0A5A1D591B8AFBFF00D8E45E /* Model */,
+				0A5A1D5A1B8AFBFF00D8E45E /* View */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		0A5A1D581B8AFBFF00D8E45E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D741B8AFFB200D8E45E /* XMGDiscoveryController.h */,
+				0A5A1D751B8AFFB200D8E45E /* XMGDiscoveryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A5A1D591B8AFBFF00D8E45E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A5A1D5A1B8AFBFF00D8E45E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A5A1D5B1B8AFBFF00D8E45E /* LotteryHall */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D5C1B8AFBFF00D8E45E /* Controller */,
+				0A5A1D5D1B8AFBFF00D8E45E /* Model */,
+				0A5A1D5E1B8AFBFF00D8E45E /* View */,
+			);
+			path = LotteryHall;
+			sourceTree = "<group>";
+		};
+		0A5A1D5C1B8AFBFF00D8E45E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D6E1B8AFC9800D8E45E /* XMGLotteryController.h */,
+				0A5A1D6F1B8AFC9800D8E45E /* XMGLotteryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A5A1D5D1B8AFBFF00D8E45E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9DAE51BA558CD0029735D /* XMGLotteryChooseModel.h */,
+				0AF9DAE61BA558CD0029735D /* XMGLotteryChooseModel.m */,
+				0AF9DAE81BA567730029735D /* XMGLotteryChooseGroup.h */,
+				0AF9DAE91BA567730029735D /* XMGLotteryChooseGroup.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A5A1D5E1B8AFBFF00D8E45E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A2D6F261BA4212400CE4207 /* Focus */,
+				0AF9DAD81BA47CBC0029735D /* Guess */,
+				0AF9DAE11BA555410029735D /* Lottery */,
+				0AF9DAE21BA555710029735D /* XMGHallMarginCell.h */,
+				0AF9DAE31BA555710029735D /* XMGHallMarginCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A5A1D631B8AFBFF00D8E45E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D871B8B427500D8E45E /* Category */,
+				0A5A1D7D1B8B08E600D8E45E /* Tab */,
+				0A5A1D641B8AFBFF00D8E45E /* AppDelegate.h */,
+				0A5A1D651B8AFBFF00D8E45E /* AppDelegate.m */,
+				0A5A1D661B8AFBFF00D8E45E /* XMGMainController.h */,
+				0A5A1D671B8AFBFF00D8E45E /* XMGMainController.m */,
+				0A5A1D841B8B33CC00D8E45E /* XMGNaviController.h */,
+				0A5A1D851B8B33CC00D8E45E /* XMGNaviController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0A5A1D681B8AFBFF00D8E45E /* SportsArea */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D691B8AFBFF00D8E45E /* Controller */,
+				0A5A1D6A1B8AFBFF00D8E45E /* Model */,
+				0A5A1D6B1B8AFBFF00D8E45E /* View */,
+			);
+			path = SportsArea;
+			sourceTree = "<group>";
+		};
+		0A5A1D691B8AFBFF00D8E45E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D7A1B8AFFD200D8E45E /* XMGSportsAreaController.h */,
+				0A5A1D7B1B8AFFD200D8E45E /* XMGSportsAreaController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A5A1D6A1B8AFBFF00D8E45E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A5A1D6B1B8AFBFF00D8E45E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A5A1D7D1B8B08E600D8E45E /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D7E1B8B090000D8E45E /* XMGTabbar.h */,
+				0A5A1D7F1B8B090000D8E45E /* XMGTabbar.m */,
+				0A5A1D811B8B091900D8E45E /* XMGTabbarItem.h */,
+				0A5A1D821B8B091900D8E45E /* XMGTabbarItem.m */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		0A5A1D871B8B427500D8E45E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A1D881B8B428700D8E45E /* UIImage+resized.h */,
+				0A5A1D891B8B428700D8E45E /* UIImage+resized.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0A6DA1EB1BA5CA800064DAA1 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA1EC1BA5CA800064DAA1 /* Controller */,
+				0A6DA1FF1BA5CA800064DAA1 /* Model */,
+				0A6DA2041BA5CA800064DAA1 /* Tool */,
+				0A6DA2081BA5CA800064DAA1 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		0A6DA1EC1BA5CA800064DAA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A19A2491BA85D40003F29B3 /* Product */,
+				0A19A2471BA85D22003F29B3 /* About */,
+				0A19A2461BA85D1A003F29B3 /* Push */,
+				0A19A2481BA85D2C003F29B3 /* Mine */,
+				0A6DA1FD1BA5CA800064DAA1 /* XMGSettingController.h */,
+				0A6DA1FE1BA5CA800064DAA1 /* XMGSettingController.m */,
+				0A6DA1F11BA5CA800064DAA1 /* XMGBaseSettingController.h */,
+				0A6DA1F21BA5CA800064DAA1 /* XMGBaseSettingController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0A6DA1FF1BA5CA800064DAA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEAA341BA6F75A00E92650 /* XMGProductModel.h */,
+				0AFEAA351BA6F75A00E92650 /* XMGProductModel.m */,
+				0A6DA2001BA5CA800064DAA1 /* XMGSettingGroup.h */,
+				0A6DA2011BA5CA800064DAA1 /* XMGSettingGroup.m */,
+				0A6DA2021BA5CA800064DAA1 /* XMGSettingModel.h */,
+				0A6DA2031BA5CA800064DAA1 /* XMGSettingModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A6DA2041BA5CA800064DAA1 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0A6DA2051BA5CA800064DAA1 /* XMGSettingKeys.h */,
+				0A6DA2061BA5CA800064DAA1 /* XMGSettingTool.h */,
+				0A6DA2071BA5CA800064DAA1 /* XMGSettingTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0A6DA2081BA5CA800064DAA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AFEAA371BA6F76B00E92650 /* XMGProductCell.h */,
+				0AFEAA381BA6F76B00E92650 /* XMGProductCell.m */,
+				0AFEAA391BA6F76B00E92650 /* XMGProductCell.xib */,
+				0A6DA2091BA5CA800064DAA1 /* XMGAboutHeaderView.h */,
+				0A6DA20A1BA5CA800064DAA1 /* XMGAboutHeaderView.m */,
+				0A6DA20B1BA5CA800064DAA1 /* XMGAboutHeaderView.xib */,
+				0A6DA20C1BA5CA800064DAA1 /* XMGSettingCell.h */,
+				0A6DA20D1BA5CA800064DAA1 /* XMGSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AF9DAD81BA47CBC0029735D /* Guess */ = {
+			isa = PBXGroup;
+			children = (
+				0A2D6F271BA4215500CE4207 /* XMGGuessCell.h */,
+				0A2D6F281BA4215500CE4207 /* XMGGuessCell.m */,
+				0A2D6F291BA4215500CE4207 /* XMGGuessCell.xib */,
+				0A2D6F2C1BA4216B00CE4207 /* XMGGuessBgCell.h */,
+				0A2D6F2D1BA4216B00CE4207 /* XMGGuessBgCell.m */,
+				0A2D6F2E1BA4216B00CE4207 /* XMGGuessBgCell.xib */,
+			);
+			name = Guess;
+			sourceTree = "<group>";
+		};
+		0AF9DAE11BA555410029735D /* Lottery */ = {
+			isa = PBXGroup;
+			children = (
+				0AF9DAD91BA47CE50029735D /* XMGLotteryChoossCell.h */,
+				0AF9DADA1BA47CE50029735D /* XMGLotteryChoossCell.m */,
+				0AF9DADC1BA47D010029735D /* XMGChooseView.h */,
+				0AF9DADD1BA47D010029735D /* XMGChooseView.m */,
+				0AF9DADF1BA47D260029735D /* XMGChooseView.xib */,
+			);
+			name = Lottery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A5A1D301B8AC31200D8E45E /* XMGLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A5A1D481B8AC31200D8E45E /* Build configuration list for PBXNativeTarget "XMGLottery" */;
+			buildPhases = (
+				0A5A1D2D1B8AC31200D8E45E /* Sources */,
+				0A5A1D2E1B8AC31200D8E45E /* Frameworks */,
+				0A5A1D2F1B8AC31200D8E45E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMGLottery;
+			productName = XMGLottery;
+			productReference = 0A5A1D311B8AC31200D8E45E /* XMGLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A5A1D291B8AC31200D8E45E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = com.520it.www;
+				TargetAttributes = {
+					0A5A1D301B8AC31200D8E45E = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 0A5A1D2C1B8AC31200D8E45E /* Build configuration list for PBXProject "XMGLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A5A1D281B8AC31200D8E45E;
+			productRefGroup = 0A5A1D321B8AC31200D8E45E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A5A1D301B8AC31200D8E45E /* XMGLottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A5A1D2F1B8AC31200D8E45E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFEAA3B1BA6F76B00E92650 /* XMGProductCell.xib in Resources */,
+				0AF9DAD71BA47B4A0029735D /* List.plist in Resources */,
+				0A2D6F2B1BA4215500CE4207 /* XMGGuessCell.xib in Resources */,
+				0A6DA21B1BA5CA800064DAA1 /* XMGAboutHeaderView.xib in Resources */,
+				0AF9DAE01BA47D260029735D /* XMGChooseView.xib in Resources */,
+				0A5A1D411B8AC31200D8E45E /* Assets.xcassets in Resources */,
+				0A2D6F301BA4216B00CE4207 /* XMGGuessBgCell.xib in Resources */,
+				0AFEAA301BA6DC0D00E92650 /* more_project.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A5A1D2D1B8AC31200D8E45E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5A1D7C1B8AFFD200D8E45E /* XMGSportsAreaController.m in Sources */,
+				0A6DA2131BA5CA800064DAA1 /* XMGPointPushController.m in Sources */,
+				0AFEAA361BA6F75A00E92650 /* XMGProductModel.m in Sources */,
+				0AF9DAE71BA558CD0029735D /* XMGLotteryChooseModel.m in Sources */,
+				0A6DA20E1BA5CA800064DAA1 /* XMGAboutController.m in Sources */,
+				0A6DA21A1BA5CA800064DAA1 /* XMGAboutHeaderView.m in Sources */,
+				0AF9DADE1BA47D010029735D /* XMGChooseView.m in Sources */,
+				0A6DA2171BA5CA800064DAA1 /* XMGSettingGroup.m in Sources */,
+				0A6DA2181BA5CA800064DAA1 /* XMGSettingModel.m in Sources */,
+				0A6DA2141BA5CA800064DAA1 /* XMGPointPushSettingController.m in Sources */,
+				0A6DA2151BA5CA800064DAA1 /* XMGPushController.m in Sources */,
+				0AFEAA3A1BA6F76B00E92650 /* XMGProductCell.m in Sources */,
+				0A5A1D701B8AFC9800D8E45E /* XMGLotteryController.m in Sources */,
+				0A2D6F251BA410A400CE4207 /* XMGHallFocusCollectionCell.m in Sources */,
+				0A5A1D761B8AFFB200D8E45E /* XMGDiscoveryController.m in Sources */,
+				0A6DA2101BA5CA800064DAA1 /* XMGBaseSettingController.m in Sources */,
+				0A2D6F2A1BA4215500CE4207 /* XMGGuessCell.m in Sources */,
+				0A2D6F2F1BA4216B00CE4207 /* XMGGuessBgCell.m in Sources */,
+				0A2D6F221BA40D4B00CE4207 /* XMGHallFocusCell.m in Sources */,
+				0A5A1D6C1B8AFBFF00D8E45E /* AppDelegate.m in Sources */,
+				0A5A1D6D1B8AFBFF00D8E45E /* XMGMainController.m in Sources */,
+				0A6DA21C1BA5CA800064DAA1 /* XMGSettingCell.m in Sources */,
+				0A6DA2161BA5CA800064DAA1 /* XMGSettingController.m in Sources */,
+				0A6DA2191BA5CA800064DAA1 /* XMGSettingTool.m in Sources */,
+				0A5A1D831B8B091900D8E45E /* XMGTabbarItem.m in Sources */,
+				0A5A1D801B8B090000D8E45E /* XMGTabbar.m in Sources */,
+				0AF9DADB1BA47CE50029735D /* XMGLotteryChoossCell.m in Sources */,
+				0A6DA2111BA5CA800064DAA1 /* XMGLotteryPushController.m in Sources */,
+				0A6DA2121BA5CA800064DAA1 /* XMGMineController.m in Sources */,
+				0A5A1D361B8AC31200D8E45E /* main.m in Sources */,
+				0AF9DAE41BA555710029735D /* XMGHallMarginCell.m in Sources */,
+				0A5A1D861B8B33CC00D8E45E /* XMGNaviController.m in Sources */,
+				0A5A1D8A1B8B428700D8E45E /* UIImage+resized.m in Sources */,
+				0A5A1D731B8AFFA000D8E45E /* XMGAwardInfoController.m in Sources */,
+				0A6DA20F1BA5CA800064DAA1 /* XMGAwardPushController.m in Sources */,
+				0AFEAA331BA6F74000E92650 /* XMGProductController.m in Sources */,
+				0AF9DAEA1BA567730029735D /* XMGLotteryChooseGroup.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A5A1D461B8AC31200D8E45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A5A1D471B8AC31200D8E45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A5A1D491B8AC31200D8E45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMGLottery/XMGLottery-PCH.pch";
+				INFOPLIST_FILE = XMGLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.www.XMGLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A5A1D4A1B8AC31200D8E45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XMGLottery/XMGLottery-PCH.pch";
+				INFOPLIST_FILE = XMGLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.520it.www.XMGLottery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A5A1D2C1B8AC31200D8E45E /* Build configuration list for PBXProject "XMGLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5A1D461B8AC31200D8E45E /* Debug */,
+				0A5A1D471B8AC31200D8E45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A5A1D481B8AC31200D8E45E /* Build configuration list for PBXNativeTarget "XMGLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A5A1D491B8AC31200D8E45E /* Debug */,
+				0A5A1D4A1B8AC31200D8E45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A5A1D291B8AC31200D8E45E /* Project object */;
+}

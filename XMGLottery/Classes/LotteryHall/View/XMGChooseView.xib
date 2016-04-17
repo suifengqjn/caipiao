@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8173.3" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Fny-Vk-gcr" customClass="XMGChooseView">
+            <rect key="frame" x="0.0" y="0.0" width="175" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_cqd11_wheelList" translatesAutoresizingMaskIntoConstraints="NO" id="Z07-gd-ZQn">
+                    <rect key="frame" x="10" y="21" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="bq0-Ju-jY1"/>
+                        <constraint firstAttribute="width" constant="40" id="nsc-G3-68d"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全民娱乐场" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLi-Ze-sdH">
+                    <rect key="frame" x="58" y="21" width="112" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="猜球搓牌爽歪歪" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfs-fR-SdJ">
+                    <rect key="frame" x="58" y="41" width="112" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="choose_arrow" translatesAutoresizingMaskIntoConstraints="NO" id="PbL-vi-hTn">
+                    <rect key="frame" x="20" y="77" width="10" height="5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="QWC-ai-tWb"/>
+                        <constraint firstAttribute="height" constant="5" id="XKS-H6-o0j"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FLi-Ze-sdH" firstAttribute="leading" secondItem="Z07-gd-ZQn" secondAttribute="trailing" constant="8" id="26R-89-hdM"/>
+                <constraint firstItem="Jfs-fR-SdJ" firstAttribute="top" secondItem="FLi-Ze-sdH" secondAttribute="bottom" constant="3" id="6NW-24-WAB"/>
+                <constraint firstItem="Jfs-fR-SdJ" firstAttribute="width" secondItem="FLi-Ze-sdH" secondAttribute="width" id="Dtj-E5-h7B"/>
+                <constraint firstItem="Jfs-fR-SdJ" firstAttribute="leading" secondItem="FLi-Ze-sdH" secondAttribute="leading" id="H1W-fr-KGg"/>
+                <constraint firstAttribute="bottom" secondItem="PbL-vi-hTn" secondAttribute="bottom" id="VDg-cs-LPR"/>
+                <constraint firstItem="PbL-vi-hTn" firstAttribute="leading" secondItem="Fny-Vk-gcr" secondAttribute="leading" constant="20" id="b81-ch-3eq"/>
+                <constraint firstItem="Z07-gd-ZQn" firstAttribute="leading" secondItem="Fny-Vk-gcr" secondAttribute="leading" constant="10" id="dAx-5y-hPW"/>
+                <constraint firstItem="FLi-Ze-sdH" firstAttribute="top" secondItem="Z07-gd-ZQn" secondAttribute="top" id="lgf-vP-Hjb"/>
+                <constraint firstItem="Z07-gd-ZQn" firstAttribute="centerY" secondItem="Fny-Vk-gcr" secondAttribute="centerY" id="uKC-iQ-a2h"/>
+                <constraint firstAttribute="trailing" secondItem="FLi-Ze-sdH" secondAttribute="trailing" constant="5" id="z4l-Pl-7ng"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="Z07-gd-ZQn" id="NDl-IP-rWY"/>
+                <outlet property="imageViewArrow" destination="PbL-vi-hTn" id="IRV-3O-1ur"/>
+                <outlet property="labelSubTitle" destination="Jfs-fR-SdJ" id="0KR-20-GlQ"/>
+                <outlet property="labelTitle" destination="FLi-Ze-sdH" id="fUa-8w-F6x"/>
+            </connections>
+            <point key="canvasLocation" x="169.5" y="-5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="choose_arrow" width="10" height="5"/>
+        <image name="logo_cqd11_wheelList" width="45" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,20 @@
+//
+//  XMGLottery-PCH.pch
+//  XMGLottery
+//
+//  Created by 王峰 on 15/8/25.
+//  Copyright © 2015年 com.520it.www. All rights reserved.
+//
+
+#ifndef XMGLottery_PCH_pch
+#define XMGLottery_PCH_pch
+// 定义全局背景色
+#define GlobeColor [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg"]]
+#define RGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+// 快速创建弱指针
+#define __weakSelf __weak typeof(self) weakSelf = self;
+// app的id
+#define  appID @"415424368"
+
+#endif /* XMGLottery_PCH_pch */
